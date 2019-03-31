@@ -1,4 +1,4 @@
-var data = [];
+﻿var data = [];
 //获取元素
 var bar = document.querySelector('.bar')
 var audio = document.querySelector('audio');
@@ -66,7 +66,6 @@ modeBtn.addEventListener('click',function () {
 
 $('.list-box ul').on('click','li',function () {
     index = $(this).index();
-    audio.src='http://music.163.com/song/media/outer/url?id='+data[index].id+'.mp3';
     init();
     play();
     // $.ajax({
@@ -109,6 +108,7 @@ function init() {
 // 播放
 function play (){
     pic.src = data[index].al.picUrl;
+    audio.src='http://music.163.com/song/media/outer/url?id='+data[index].id+'.mp3';
     // 播放音乐
     audio.play();
     // 播放按钮变成暂停
