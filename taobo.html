@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+    ul{
+      width: 288px;
+      list-style: none;
+    }
+    .box{
+      width: 288px;
+      margin: 50px auto;
+    }
+    li{
+      width: 71px;
+      height: 72px;
+      border: 1px solid #000000;
+      float: left;
+      margin-top: -1px;
+      margin-left: -1px;
+    }
+    span{
+      display: block;
+      width: 24px;
+      height: 24px;
+      background-image: url("tp/sss.png");
+      margin: 10px auto;
+    }
+    p{
+      text-align: center;
+    }
+    div{
+      width: 0px;
+      height: 0px;
+      border-left: 10px solid red;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <ul>
+      <li>
+        <span></span>
+        <p>充话费</p>
+      </li>
+      <li>
+        <span></span>
+        <p>旅行</p>
+      </li>
+      <li>
+        <span></span>
+        <p>车险</p>
+      </li>
+      <li>
+        <span></span>
+        <p>游戏</p>
+      </li>
+      <li>
+        <span></span>
+        <p>彩票</p>
+      </li>
+      <li>
+        <span></span>
+        <p>电影</p>
+      </li>
+      <li>
+        <span></span>
+        <p>酒店</p>
+      </li>
+      <li>
+        <span></span>
+        <p>理财</p>
+      </li>
+      <li>
+        <span></span>
+        <p>找服务</p>
+      </li>
+      <li>
+        <span></span>
+        <p>演出</p>
+      </li>
+      <li>
+        <span></span>
+        <p>水电煤</p>
+      </li>
+      <li>
+        <span></span>
+        <p>火车票</p>
+      </li>
+    </ul>
+  </div>
+  <script>
+    var spans = document.querySelectorAll('span');
+    for (var i=0 ; i<spans.length ; i++){
+      spans[i].style.backgroundPositionY=-44*i+'px';
+    }
+  </script>
+
+<div></div>
+</body>
+</html>

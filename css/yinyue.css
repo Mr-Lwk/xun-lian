@@ -1,0 +1,131 @@
+body,span,div,li{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+body {
+    background-color: rgba(239, 114, 237, 0.8);
+}
+.box {
+    width: 500px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 50px auto;
+    font-size: 13px;
+    background-color: rgba(239, 197, 210, 0.8);
+}
+.ctr-box {
+    width: 100%;
+    display: flex;
+}
+.ctr-pic {
+    width: 150px;
+}
+.ctr-pic img {
+    width: 100%;
+    border-radius: 50%;
+}
+.ctr-boty {
+    width: 350px;
+    height: 150px;
+}
+.singer {
+    margin: 30px 0 0 30px;
+}
+.bar {
+    width: 300px;
+    position: relative;
+    margin: 15px;
+}
+.toble {
+    width: 200px;
+    height: 4px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.now {
+    width: 0px;
+    height: 4px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ctr-bar {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: -3px;
+    left: 0;
+}
+.time {
+    position: absolute;
+    top: -17px;
+    right: 0;
+}
+.ctr-btn {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 35px 20px 20px 20px;
+}
+.ctr-btn div {
+    background: url("../mul/21.png")no-repeat;
+}
+.ctr-btn .prev {
+    width: 20px;
+    height: 20px;
+    background-position-y: -30px;
+}
+.ctr-btn .start {
+    width: 20px;
+    height: 30px;
+}
+.ctr-btn .next {
+    width: 20px;
+    height: 20px;
+    background-position-y: -52px;
+}
+.ctr-btn .volume {
+    width: 30px;
+    height: 25px;
+    background-position-y: -141px;
+}
+.ctr-btn .mode {
+    width: 28px;
+    height: 23px;
+    background-position-y: -206px;
+}
+.bar-box {
+    width: 200px;
+    padding: 4px;
+}
+.list-box {
+    width: 100%;
+    padding: 20px;
+    box-sizing:border-box ;
+}
+.list-box li{
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px dashed black;
+}
+.active {
+    background-color: blue;
+}
+.searchBar {
+    width: 250px;
+    padding: 20px;
+    margin: 50px auto;
+    font-size: 13px;
+    background-color: rgba(239, 114, 237, 0.1);
+}
